@@ -12,7 +12,7 @@ class prepare_string
         for ($i = 0; $i < $stop; $i++)
             {
                 $content = $textarr[$i];
-                    if ((strlen($content) > 0) && ('<' != $content{0}))
+                    if ((strlen($content) > 0) && ('<' != $content[0]))
                     { 
                         $content = $this -> replace_chars( $content ) ;
                     }

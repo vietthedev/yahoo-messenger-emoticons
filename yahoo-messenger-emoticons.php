@@ -18,7 +18,7 @@ return $content;
 
 function emoticons_options_page() {
     if (function_exists('add_options_page')) {
-        add_options_page('Yahoo Messenger Emoticons', 'Yahoo Messenger Emoticons', 8, basename(__FILE__), 'emoticons_admin_panel');
+        add_options_page('Yahoo Messenger Emoticons', 'Yahoo Messenger Emoticons', 'manage_options', basename(__FILE__), 'emoticons_admin_panel');
     }
 }
 
